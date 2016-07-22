@@ -7,10 +7,11 @@ import java.util.Scanner;
  */
 public class MainClass {
 
-    static final Scanner sc = new Scanner(System.in);
 
 
     public static void main(String[] args) {
+
+
         /*fullName="FullName";
         position="Position";
         email="email";
@@ -21,15 +22,12 @@ public class MainClass {
         for (int i = 0; i <wks3.length ; i++) {
             wks3[i]=sc.nextLine();*/
 
-
         Workers wks = new Workers();
-        wks.PrintinfoABOUTworkes();
-        Workers wks_1 = new Workers("Vsja Ivanov", "loader", "sadVasja@gmai.com", "+4206035646", "500$", "33");
+        wks.PrintinfoABOUTworkers();
+        Workers wks_1 = new Workers("Vsja Ivanov", "loader", "sadVasja@gmai.com", "+4206035646", 560, 25);
 
         //    wks_1.position="грузчик" ; - не работает ибо поле приватное
-        wks_1.PrintinfoABOUTworkes();
-
-
+        wks_1.PrintinfoABOUTworkers();
         System.out.println(wks_1.getFullName());
        }
 
