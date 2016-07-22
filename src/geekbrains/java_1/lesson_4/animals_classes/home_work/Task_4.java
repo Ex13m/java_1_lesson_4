@@ -20,8 +20,8 @@ public class Task_4 {
             if (workers[i].getAge() > 40) {y = y+1;workers[i].PrintinfoABOUTworkers();}
             }System.out.println();
 
-            if (y > 0) System.out.println("У вас " + y + " работников старше 40 лет. ");
-            else System.out.println("У вас нет работников старше 40 лет.");
+        if (y > 0) System.out.println("У вас " + y + " работников старше 40 лет. ");
+        else System.out.println("У вас нет работников старше 40 лет.");
 
     }
 }
